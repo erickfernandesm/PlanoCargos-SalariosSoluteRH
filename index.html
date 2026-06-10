@@ -6,10 +6,13 @@
 <title>Curso Plano de Cargos e Salários | Solute RH</title>
 <meta name="description" content="Estruture um Plano de Cargos e Salários justo, estratégico e com respaldo legal. Metodologia por pontos e planilha validada em centenas de empresas. Por Rosemeire Moreira — Solute RH.">
 
+<link rel="icon" type="image/png" href="assets/faviconlaranja.png">
+<link rel="apple-touch-icon" href="assets/faviconlaranja.png">
+
 <!-- Fontes -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <!-- Estilos -->
 <link rel="stylesheet" href="styles.css">
@@ -19,31 +22,71 @@
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
-<header class="nav">
-  <div class="wrap row">
-    <a href="#" class="logo">Solute<b>RH</b></a>
-    <a href="#oferta" class="nav-cta">Garantir minha vaga</a>
-  </div>
-</header>
-
 <!-- ===== HERO ===== -->
 <section class="hero">
   <div class="wrap">
-    <div>
+    <div class="hero-intro">
       <span class="eyebrow">Para profissionais de RH</span>
       <h1>Estruture cargos e salários com critério e faça o RH ser ouvido pela diretoria</h1>
       <p class="lead">Saia do “achismo” e implante um Plano de Cargos e Salários justo, sustentável e com respaldo legal. Metodologia por pontos e planilha validada em centenas de empresas.</p>
-      <div class="trust">
-        <div><b class="count" data-to="100" data-prefix="+">+100</b><span>empresas estruturadas</span></div>
-        <div><b>Método</b><span>por pontos (B. R. Pontes)</span></div>
-        <div><b>Planilha</b><span>pronta e validada</span></div>
-      </div>
     </div>
     <div class="hero-card">
-      <span class="tag">Incluso no curso</span>
-      <h3>Planilha completa de Cargos &amp; Salários</h3>
-      <div class="ph">⟬ Print da planilha / tabela salarial ⟭</div>
+      <span class="tag">Metodologia por pontos</span>
+      <h3>Do cargo à faixa salarial</h3>
+      <div class="method">
+        <svg viewBox="0 0 360 312" role="img" aria-label="Do cargo aos fatores, à pontuação e às faixas salariais">
+          <defs>
+            <linearGradient id="mbar" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#f26a21"/>
+              <stop offset="1" stop-color="#ff9d52"/>
+            </linearGradient>
+          </defs>
+
+          <line class="spine" x1="26" y1="40" x2="26" y2="272"/>
+          <line class="spine-flow" x1="26" y1="40" x2="26" y2="272"/>
+
+          <circle class="node n1" cx="26" cy="40"  r="6"/>
+          <circle class="node n2" cx="26" cy="117" r="6"/>
+          <circle class="node n3" cx="26" cy="194" r="6"/>
+          <circle class="node n4" cx="26" cy="272" r="6"/>
+          <circle class="pulse" cx="26" cy="40" r="4"/>
+
+          <text class="lbl" x="44" y="44">Cargos</text>
+          <text class="lbl" x="44" y="121">Fatores</text>
+          <text class="lbl" x="44" y="198">Pontuação</text>
+          <text class="lbl" x="44" y="276">Faixas</text>
+
+          <g class="chips">
+            <rect x="150" y="30" width="58" height="22" rx="6"/>
+            <rect x="216" y="30" width="58" height="22" rx="6"/>
+            <rect x="282" y="30" width="58" height="22" rx="6"/>
+          </g>
+
+          <g class="pills">
+            <rect x="150" y="109" width="34" height="16" rx="8"/>
+            <rect x="192" y="109" width="34" height="16" rx="8"/>
+            <rect x="234" y="109" width="34" height="16" rx="8"/>
+            <rect x="276" y="109" width="34" height="16" rx="8"/>
+          </g>
+
+          <g class="badge">
+            <rect x="150" y="183" width="96" height="24" rx="7"/>
+            <text class="pts" x="198" y="199">+850 pts</text>
+          </g>
+
+          <g class="bars">
+            <rect class="bar b1" x="150" y="254" width="70"  height="8" rx="4"/>
+            <rect class="bar b2" x="150" y="266" width="110" height="8" rx="4"/>
+            <rect class="bar b3" x="150" y="278" width="150" height="8" rx="4"/>
+            <rect class="bar b4" x="150" y="290" width="190" height="8" rx="4"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="trust">
+      <div><b class="count" data-to="100" data-prefix="+">+100</b><span>empresas estruturadas</span></div>
+      <div><b>Método</b><span>por pontos (B. R. Pontes)</span></div>
+      <div><b>Planilha</b><span>pronta e validada</span></div>
     </div>
   </div>
 </section>
@@ -58,7 +101,7 @@
     </div>
     <div class="grid g4">
       <div class="pain"><div class="ic">🎯</div><h3>Salário no “feeling”</h3><p>Aumentos saem porque “a pessoa é boa” ou “deu na cabeça”. Folha descontrolada e gente refém do achismo.</p></div>
-      <div class="pain"><div class="ic">⚖️</div><h3>Risco trabalhista</h3><p>Cargos sem critério e salários desalinhados — uma equiparação salarial esperando para estourar.</p></div>
+      <div class="pain"><div class="ic">⚖️</div><h3>Risco trabalhista</h3><p>Cargos sem critério e salários desalinhados uma equiparação salarial esperando para estourar.</p></div>
       <div class="pain"><div class="ic">🚪</div><h3>Talentos saindo</h3><p>As melhores pessoas pedem demissão por não enxergarem crescimento nem reconhecimento justo.</p></div>
       <div class="pain"><div class="ic">🔇</div><h3>RH não ouvido</h3><p>Você sabe que precisa estruturar, mas falta método e argumento técnico para convencer a diretoria.</p></div>
     </div>
@@ -67,14 +110,14 @@
 
 <!-- ===== PROMESSA (dark) ===== -->
 <section class="dark-sec">
-  <div class="wrap" style="display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center">
+  <div class="wrap promise-grid">
     <div>
       <span class="eyebrow">O que muda para você</span>
-      <h2>Um plano que se sustenta sozinho — e te posiciona como RH estratégico</h2>
+      <h2>Um plano que se sustenta sozinho e te posiciona como RH estratégico</h2>
       <p class="lead" style="color:#c1c4cc;margin-top:18px">Você deixa de depender da sorte ou da boa vontade dos gestores. O método trabalha por você.</p>
     </div>
     <ul class="check">
-      <li>Cada decisão salarial com <strong style="color:#fff">critério técnico e defensável</strong> — fim do improviso.</li>
+      <li>Cada decisão salarial com <strong style="color:#fff">critério técnico e defensável</strong> fim do improviso.</li>
       <li><strong style="color:#fff">Controle do crescimento da folha</strong> com sustentabilidade, valorizando quem entrega.</li>
       <li><strong style="color:#fff">Redução de riscos trabalhistas</strong> com estrutura justa e alinhada às obrigações legais.</li>
       <li><strong style="color:#fff">Atração e retenção de talentos</strong> com carreira clara e reconhecimento por mérito.</li>
@@ -88,7 +131,7 @@
     <div class="center" style="max-width:760px;margin:0 auto 60px">
       <span class="eyebrow">A jornada completa</span>
       <h2>Você não aprende “teoria de cargos e salários”.<br>Você sai com o plano implantado.</h2>
-      <p class="lead" style="margin-top:16px">Cada fase do curso te leva por uma etapa real da implantação — na ordem em que ela acontece dentro da empresa.</p>
+      <p class="lead" style="margin-top:16px">Cada fase do curso te leva por uma etapa real da implantação na ordem em que ela acontece dentro da empresa.</p>
     </div>
     <div class="timeline">
       <div class="tl-item on">
@@ -112,7 +155,7 @@
       <div class="tl-item on">
         <div class="tl-dot">4</div>
         <h3>Política &amp; impacto financeiro</h3>
-        <p>Critérios claros de promoção e mérito — com o custo de cada decisão calculado antes de implantar.</p>
+        <p>Critérios claros de promoção e mérito com o custo de cada decisão calculado antes de implantar.</p>
         <div class="chips"><span>Critérios de promoção</span><span>Impacto na folha</span><span>Proposta de enquadramento</span></div>
       </div>
       <div class="tl-item on">
@@ -134,15 +177,68 @@
       <p class="lead" style="margin-top:16px">Do conceito à prática, com as ferramentas já desenhadas e validadas para você apenas personalizar.</p>
     </div>
 
-    <div class="deliv"><div class="thumb">⟬ Imagem da aula ⟭</div><div><span class="kicker">Fundamentos</span><h3>Conceitos essenciais: cargos, salários e carreiras</h3><p>Diferencie cargo, salário e carreira e domine os termos técnicos — salário base, remuneração, piso, níveis, steps, fatores, classes, ranking e grupos ocupacionais — para falar com propriedade.</p></div></div>
+    <div class="deliv"><div class="thumb art"><img src="assets/cargos.png" alt="Conceitos essenciais de cargos, salários e carreiras"></div><div><span class="kicker">Fundamentos</span><h3>Conceitos essenciais: cargos, salários e carreiras</h3><p>Diferencie cargo, salário e carreira e domine os termos técnicos salário base, remuneração, piso, níveis, steps, fatores, classes, ranking e grupos ocupacionais para falar com propriedade.</p></div></div>
 
-    <div class="deliv"><div class="thumb">⟬ Imagem da aula ⟭</div><div><span class="kicker">Base técnica</span><h3>A metodologia por pontos, na prática</h3><p>A metodologia mais reconhecida nacional e internacionalmente (Benedito R. Pontes): avalie a complexidade dos cargos por fatores universais, distribua os pontos e gere o ranking que sustenta cada decisão.</p></div></div>
+    <div class="deliv"><div class="thumb art"><img src="assets/fatores.png" alt="A metodologia por pontos: fatores e pontuação dos cargos"></div><div><span class="kicker">Base técnica</span><h3>A metodologia por pontos, na prática</h3><p>A metodologia mais reconhecida nacional e internacionalmente (Benedito R. Pontes): avalie a complexidade dos cargos por fatores universais, distribua os pontos e gere o ranking que sustenta cada decisão.</p></div></div>
 
-    <div class="deliv star"><div class="thumb">⟬ Print da planilha ⟭</div><div><span class="kicker">★ Ferramenta principal</span><h3>Planilha completa, com todas as fórmulas validadas</h3><p>O mesmo modelo implantado em centenas de empresas — pronto e validado. Você só inclui seus cargos, pontua e faz a pesquisa salarial do seu mercado. Assertividade pronta para usar.</p></div></div>
+    <div class="deliv star"><div class="thumb art"><svg viewBox="0 0 230 150" role="img" aria-label="Planilha completa e validada">
+      <rect class="sv-sheet" x="18" y="18" width="166" height="114" rx="9"/>
+      <rect class="sv-tab" x="28" y="29" width="10" height="10" rx="2"/>
+      <rect class="sv-title" x="44" y="31" width="92" height="7" rx="3.5"/>
+      <line class="sv-div" x1="28" y1="50" x2="174" y2="50"/>
 
-    <div class="deliv"><div class="thumb">⟬ Imagem da aula ⟭</div><div><span class="kicker">Carreira</span><h3>Trilhas de carreira: gestão e especialista</h3><p>Estruture o crescimento em modelo Y: valorize quem quer liderar <em>e</em> quem quer se aprofundar tecnicamente — sem obrigar ninguém a virar gestor para crescer.</p></div></div>
+      <rect class="sv-label" x="28" y="61"  width="22" height="4" rx="2"/>
+      <rect class="sv-line"  x="56" y="60.5" width="118" height="3" rx="1.5"/>
+      <rect class="sv-label" x="28" y="77"  width="30" height="4" rx="2"/>
+      <rect class="sv-line"  x="64" y="76.5" width="110" height="3" rx="1.5"/>
+      <rect class="sv-label" x="28" y="93"  width="20" height="4" rx="2"/>
+      <rect class="sv-line"  x="54" y="92.5" width="120" height="3" rx="1.5"/>
+      <rect class="sv-label" x="28" y="109" width="26" height="4" rx="2"/>
+      <rect class="sv-line"  x="60" y="108.5" width="104" height="3" rx="1.5"/>
 
-    <div class="deliv"><div class="thumb">⟬ Imagem da aula ⟭</div><div><span class="kicker">Implantação sem erros</span><h3>Personalização, comitê de avaliação e enquadramento</h3><p>Adapte o plano à cultura, à maturidade de gestão e às obrigações sindicais, monte um comitê justo e sem viés e escolha o melhor momento (dissídio) para implantar com um único ajuste.</p></div></div>
+      <g class="seal">
+        <circle class="seal-ring" cx="188" cy="110" r="20"/>
+        <circle class="seal-core" cx="188" cy="110" r="18"/>
+        <path class="seal-check" d="M180 110 L186 116 L197 101"/>
+      </g>
+    </svg></div><div><span class="kicker">★ Ferramenta principal</span><h3>Planilha completa, com todas as fórmulas validadas</h3><p>O mesmo modelo implantado em centenas de empresas pronto e validado. Você só inclui seus cargos, pontua e faz a pesquisa salarial do seu mercado. Assertividade pronta para usar.</p></div></div>
+
+    <div class="deliv"><div class="thumb art"><svg viewBox="0 0 230 150" role="img" aria-label="Modelo Y de carreira: trilha de gestão e trilha de especialista">
+      <path class="cr-path" d="M115 126 L115 82"/>
+      <path class="cr-path" d="M115 82 L64 36"/>
+      <path class="cr-path" d="M115 82 L166 36"/>
+
+      <circle class="cr-dot" cx="90" cy="59" r="4"/>
+      <circle class="cr-dot" cx="140" cy="59" r="4"/>
+      <circle class="cr-node" cx="115" cy="126" r="6"/>
+      <circle class="cr-fork" cx="115" cy="82" r="5"/>
+      <circle class="cr-end" cx="64" cy="36" r="8"/>
+      <circle class="cr-end" cx="166" cy="36" r="8"/>
+
+      <text class="cr-lbl" x="64" y="20">Gestão</text>
+      <text class="cr-lbl" x="166" y="20">Especialista</text>
+      <text class="cr-base" x="115" y="144">Início da carreira</text>
+    </svg></div><div><span class="kicker">Carreira</span><h3>Trilhas de carreira: gestão e especialista</h3><p>Estruture o crescimento em modelo Y: valorize quem quer liderar <em>e</em> quem quer se aprofundar tecnicamente sem obrigar ninguém a virar gestor para crescer.</p></div></div>
+
+    <div class="deliv"><div class="thumb art"><svg viewBox="0 0 230 150" role="img" aria-label="Roteiro de implantação: personalizar, comitê, enquadrar e implantar">
+      <line class="im-rail" x1="40" y1="28" x2="40" y2="124"/>
+
+      <circle class="im-check" cx="40" cy="28" r="10"/>
+      <path class="im-tick" d="M35 28 L39 32 L45 23"/>
+      <text class="im-lbl" x="58" y="32">Personalizar à cultura</text>
+
+      <circle class="im-check" cx="40" cy="60" r="10"/>
+      <path class="im-tick" d="M35 60 L39 64 L45 55"/>
+      <text class="im-lbl" x="58" y="64">Montar o comitê</text>
+
+      <circle class="im-check" cx="40" cy="92" r="10"/>
+      <path class="im-tick" d="M35 92 L39 96 L45 87"/>
+      <text class="im-lbl" x="58" y="96">Enquadrar os cargos</text>
+
+      <circle class="im-check" cx="40" cy="124" r="10"/>
+      <path class="im-tick" d="M35 124 L39 128 L45 119"/>
+      <text class="im-lbl" x="58" y="128">Implantar no dissídio</text>
+    </svg></div><div><span class="kicker">Implantação sem erros</span><h3>Personalização, comitê de avaliação e enquadramento</h3><p>Adapte o plano à cultura, à maturidade de gestão e às obrigações sindicais, monte um comitê justo e sem viés e escolha o melhor momento (dissídio) para implantar com um único ajuste.</p></div></div>
   </div>
 </section>
 
@@ -157,7 +253,7 @@
     <div class="bonus-stack">
       <div class="bonus">
         <span class="tag">Bônus 01</span>
-        <div><h3>Plano de ação para a NR-1</h3><p>Modelo pronto para dar respaldo à empresa nos riscos psicossociais e na saúde mental do trabalho — assinado pelo RH.</p></div>
+        <div><h3>Plano de ação para a NR-1</h3><p>Modelo pronto para dar respaldo à empresa nos riscos psicossociais e na saúde mental do trabalho assinado pelo RH.</p></div>
         <div class="val"><span class="x">⟬ R$ XXX ⟭</span><span class="free">Incluso</span></div>
       </div>
       <div class="bonus">
@@ -167,7 +263,7 @@
       </div>
       <div class="bonus">
         <span class="tag">Bônus 03</span>
-        <div><h3>Kit de modelos e termos técnicos</h3><p>Glossário, estrutura de tabela salarial e critérios de enquadramento para você não travar na hora de montar. <span class="ph-note">⟬ confirme os bônus reais ⟭</span></p></div>
+        <div><h3>Kit de modelos e termos técnicos</h3><p>Glossário, estrutura de tabela salarial e critérios de enquadramento para você não travar na hora de montar. <span class="ph-note">⟬ confirmar os bônus reais ⟭</span></p></div>
         <div class="val"><span class="x">⟬ R$ XXX ⟭</span><span class="free">Incluso</span></div>
       </div>
     </div>
@@ -186,19 +282,19 @@
       <div class="fit yes">
         <h3><span class="b">✓</span> É para você se…</h3>
         <ul>
-          <li>Você é de RH — analista, coordenador, gerente, BP ou DP — e cargos &amp; salários sempre foi parar na sua mesa sem um método claro.</li>
+          <li>Você é de RH, analista, coordenador, gerente, BP ou DP e cargos &amp; salários sempre foi parar na sua mesa sem um método claro.</li>
           <li>Está cansado(a) de definir salário no “achismo” e quer critérios técnicos que você defenda na frente de qualquer gestor.</li>
           <li>Quer que o RH seja <strong>ouvido pela diretoria</strong> e saia do operacional para o estratégico.</li>
           <li>Precisa reduzir o risco de equiparação salarial e parar de perder sono com passivo trabalhista.</li>
           <li>Quer reter os talentos do time oferecendo carreira clara e reconhecimento justo.</li>
-          <li>Quer uma planilha pronta para entregar resultado já no próximo ciclo — sem reinventar a roda.</li>
+          <li>Quer uma planilha pronta para entregar resultado já no próximo ciclo sem reinventar a roda.</li>
         </ul>
       </div>
       <div class="fit no">
         <h3><span class="b">✕</span> Não é para você se…</h3>
         <ul>
           <li>Você procura uma planilha “mágica” de copiar e colar, sem personalizar para a sua empresa.</li>
-          <li>Não pretende aplicar de verdade — quer só assistir e guardar o certificado.</li>
+          <li>Não pretende aplicar de verdade quer só assistir e guardar o certificado.</li>
           <li>Acredita que salário deve continuar sendo decidido por simpatia e feeling.</li>
           <li>Não está disposto(a) a sentar com os gestores e construir critérios justos.</li>
         </ul>
@@ -210,16 +306,43 @@
 <!-- ===== DEPOIMENTOS ===== -->
 <section class="bg-paper">
   <div class="wrap">
-    <div class="center" style="max-width:720px;margin:0 auto 56px">
+    <div class="center" style="max-width:720px;margin:0 auto 24px">
       <span class="eyebrow">Resultados reais</span>
-      <h2>Quem aplicou, transformou a área</h2>
+      <h2>O que muda quando o RH ganha método</h2>
+      <p class="lead" style="margin-top:16px">A mesma rotina, com critério por trás. Veja a virada na prática:</p>
     </div>
-    <div class="grid g3">
-      <div class="quote"><p>⟬ Depoimento real — texto/print. Ex.: “Implantei aproveitando o dissídio e fiz tudo num ajuste só. A diretoria aprovou de primeira.” ⟭</p><div class="who"><span class="av"></span><span><b>⟬ Nome ⟭</b><span>⟬ Cargo · Empresa ⟭</span></span></div></div>
-      <div class="quote"><p>⟬ Depoimento real. Ex.: “Parei de definir salário no feeling. Hoje tenho critérios que defendo na frente de qualquer gestor.” ⟭</p><div class="who"><span class="av"></span><span><b>⟬ Nome ⟭</b><span>⟬ Cargo · Empresa ⟭</span></span></div></div>
-      <div class="quote"><p>⟬ Depoimento real. Ex.: “A planilha pronta me economizou semanas. Era só incluir os cargos e pontuar.” ⟭</p><div class="who"><span class="av"></span><span><b>⟬ Nome ⟭</b><span>⟬ Cargo · Empresa ⟭</span></span></div></div>
+    <div class="ba">
+      <div class="ba-head">
+        <span class="ba-h ba-h-antes">Antes</span>
+        <span></span>
+        <span class="ba-h ba-h-depois">Depois</span>
+      </div>
+      <div class="ba-row">
+        <div class="ba-antes">Salário definido no “feeling”</div>
+        <div class="ba-arrow">→</div>
+        <div class="ba-depois">Faixas com critério técnico que você defende</div>
+      </div>
+      <div class="ba-row">
+        <div class="ba-antes">RH preso no operacional</div>
+        <div class="ba-arrow">→</div>
+        <div class="ba-depois">RH ouvido e respeitado pela diretoria</div>
+      </div>
+      <div class="ba-row">
+        <div class="ba-antes">Equiparação salarial à espreita</div>
+        <div class="ba-arrow">→</div>
+        <div class="ba-depois">Estrutura justa e com respaldo legal</div>
+      </div>
+      <div class="ba-row">
+        <div class="ba-antes">Talentos saindo sem ver futuro</div>
+        <div class="ba-arrow">→</div>
+        <div class="ba-depois">Carreira clara que reconhece e retém</div>
+      </div>
+      <div class="ba-row">
+        <div class="ba-antes">Folha crescendo sem controle</div>
+        <div class="ba-arrow">→</div>
+        <div class="ba-depois">Aumentos com regra e previsibilidade</div>
+      </div>
     </div>
-    <p class="center" style="margin-top:24px;font-size:13.5px;color:var(--muted)"><span class="ph-note">⟬ Substitua por depoimentos verdadeiros — nunca use fictícios ⟭</span></p>
   </div>
 </section>
 
@@ -227,12 +350,13 @@
 <section class="bg-soft">
   <div class="wrap">
     <div class="auth">
-      <div class="photo">⟬ Foto da<br>Rosemeire ⟭</div>
+      <div class="photo"><img src="assets/rose.jpg" alt="Rosemeire Moreira, especialista em Gestão Estratégica de Pessoas e sócia-fundadora da Solute RH"></div>
       <div>
         <span class="eyebrow">Quem vai te ensinar</span>
         <h2>Rosemeire Moreira</h2>
-        <p style="margin-top:14px">À frente da <strong>Solute RH</strong>, Rosemeire já implantou o método de cargos e salários em centenas de empresas, aplicando a metodologia por pontos de Benedito Rodrigues Pontes adaptada à realidade de cada negócio.</p>
-        <p style="margin-top:14px">Sua missão com este curso foi tornar um conhecimento normalmente caro e restrito a grandes consultorias em algo <strong>acessível e aplicável</strong> — para que profissionais de RH gerem resultados reais nas suas empresas.</p>
+        <p style="margin-top:14px">Especialista em <strong>Gestão Estratégica de Pessoas</strong> e sócia-fundadora da <strong>Solute RH</strong>, Rosemeire atua há mais de <strong>14 anos</strong> desenvolvendo profissionais de RH e ajudando empresas a estruturarem cargos e salários, liderança e cultura organizacional.</p>
+        <p style="margin-top:14px">Já transformou a carreira de mais de <strong>10.600 alunos</strong> e participou da implantação de planos estratégicos de RH em dezenas de empresas de diferentes segmentos sempre aplicando a metodologia por pontos de <strong>Benedito Rodrigues Pontes</strong>, adaptada à realidade de cada negócio.</p>
+        <p style="margin-top:14px">Seu propósito com este curso é tornar um conhecimento normalmente caro e restrito a grandes consultorias em algo <strong>acessível e aplicável</strong> para que profissionais de RH dominem metodologias validadas, ganhem protagonismo na gestão de pessoas e gerem resultados reais nas suas empresas.</p>
         <blockquote>O plano de cargos e salários não faz milagre, mas é uma ferramenta poderosa para atrair, reter e reconhecer pessoas com justiça.</blockquote>
       </div>
     </div>
@@ -256,6 +380,14 @@
       </a>
       <span class="btn-note">🔒 Compra 100% segura · Acesso na hora</span>
       <div class="guarantee">🛡️ Garantia incondicional de ⟬ 7 ⟭ dias</div>
+      <div class="pay">
+        <img src="assets/visaimg.png" alt="Visa">
+        <img src="assets/mastercardimg.png" alt="Mastercard">
+        <img src="assets/ameximg.png" alt="American Express">
+        <img src="assets/eloimg.png" alt="Elo">
+        <img src="assets/piximg.png" alt="Pix">
+        <img src="assets/hotmartimg.png" alt="Hotmart">
+      </div>
     </div>
   </div>
 </section>
@@ -286,11 +418,11 @@
     </div>
     <div class="letter">
       <span class="mark">“</span>
-      <p>Eu sei como é. O salário “sobe” porque a pessoa é querida, o gestor pressiona, e no fim das contas é você, do RH, que carrega a conta — a folha desorganizada, o risco de equiparação, o bom funcionário que pede demissão por não enxergar futuro.</p>
-      <p>Esse curso nasceu para tirar esse peso das suas costas. Não com teoria, mas com o mesmo método e a mesma planilha que eu já usei em centenas de empresas. Você não vai mais depender de “feeling” — vai ter critério, números e segurança para defender cada decisão.</p>
+      <p>Eu sei como é. O salário “sobe” porque a pessoa é querida, o gestor pressiona, e no fim das contas é você, do RH, que carrega a conta a folha desorganizada, o risco de equiparação, o bom funcionário que pede demissão por não enxergar futuro.</p>
+      <p>Esse curso nasceu para tirar esse peso das suas costas. Não com teoria, mas com o mesmo método e a mesma planilha que eu já usei em centenas de empresas. Você não vai mais depender de “feeling” vai ter critério, números e segurança para defender cada decisão.</p>
       <p>O conhecimento que normalmente custa caro numa consultoria está aqui, no seu alcance. <strong>O próximo passo é só seu.</strong></p>
       <div class="sign">
-        <span class="av"></span>
+        <img class="av" src="assets/roseicon.png" alt="Rosemeire Moreira">
         <div><b>Rosemeire Moreira</b><span>Especialista em Gestão de Pessoas · Solute RH</span></div>
       </div>
     </div>
@@ -306,9 +438,9 @@
       <h2>Tudo o que você precisa saber</h2>
     </div>
     <details><summary>Preciso já ter experiência com cargos e salários?</summary><p>Não. O curso parte dos conceitos fundamentais e avança até a implantação completa. Serve para quem está começando e para quem quer estruturar com método.</p></details>
-    <details><summary>Serve para empresas pequenas ou só grandes?</summary><p>Para os dois cenários. Você aprende a personalizar conforme o tamanho, a cultura e a maturidade de gestão — começando por uma tabela mais simples e evoluindo.</p></details>
+    <details><summary>Serve para empresas pequenas ou só grandes?</summary><p>Para os dois cenários. Você aprende a personalizar conforme o tamanho, a cultura e a maturidade de gestão começando por uma tabela mais simples e evoluindo.</p></details>
     <details><summary>A planilha já vem pronta mesmo?</summary><p>Sim. Você recebe o modelo já desenhado e validado, com as fórmulas. Basta incluir os cargos da sua empresa, pontuar e fazer a pesquisa salarial do seu mercado.</p></details>
-    <details><summary>Isso me isenta das obrigações sindicais e legais?</summary><p>Não — e o curso é claro sobre isso. O plano se alinha às suas obrigações (piso, salário profissional, convenção coletiva). Você aprende a respeitar essas regras dentro da estrutura.</p></details>
+    <details><summary>Isso me isenta das obrigações sindicais e legais?</summary><p>Não e o curso é claro sobre isso. O plano se alinha às suas obrigações (piso, salário profissional, convenção coletiva). Você aprende a respeitar essas regras dentro da estrutura.</p></details>
     <details><summary>Por quanto tempo tenho acesso?</summary><p><span class="ph-note">⟬ Informe o tempo de acesso — ex.: 12 meses / vitalício ⟭</span></p></details>
     <details><summary>E se eu não gostar?</summary><p>Você tem garantia incondicional de ⟬ 7 ⟭ dias. Se não for para você, é só pedir o reembolso dentro do prazo e devolvemos 100%.</p></details>
   </div>
@@ -318,7 +450,7 @@
 <section class="final">
   <div class="wrap narrow">
     <h2>Seu RH estratégico começa com uma decisão</h2>
-    <p class="lead" style="margin-top:16px">Estruture um plano justo, reduza riscos e valorize quem entrega — com método e ferramentas prontas.</p>
+    <p class="lead" style="margin-top:16px">Estruture um plano justo, reduza riscos e valorize quem entrega com método e ferramentas prontas.</p>
     <a href="#oferta" class="btn dark" style="margin-top:30px;background:#fff;color:var(--red)">Quero começar agora</a>
   </div>
 </section>
@@ -329,8 +461,7 @@
     <a href="#" class="logo">Solute<b style="color:#ff9d52">RH</b></a>
     <p>Curso Plano de Cargos e Salários · por Rosemeire Moreira</p>
     <div class="legal">
-      <p>Contato: <a href="mailto:marcos@soluterh.com.br">marcos@soluterh.com.br</a> · <span class="ph-note">⟬ Razão social · CNPJ · Endereço ⟭</span></p>
-      <p>© ⟬ ano ⟭ Solute RH. Todos os direitos reservados. · <a href="#">Termos de Uso</a> · <a href="#">Política de Privacidade</a></p>
+      <p>© Todos os direitos reservados. · <a href="https://curso.soluterh.com.br/politicas-de-privacidade/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=&sck=">Política de Privacidade</a></p>
       <p style="opacity:.75;margin-top:8px">Este produto não garante a obtenção de resultados. Referências a desempenho não devem ser interpretadas como garantia de resultados.</p>
     </div>
   </div>
